@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Logo from "../../assets/Logo.png";
+
 import { Link } from "react-router-dom";
 const About = () => {
   return (
