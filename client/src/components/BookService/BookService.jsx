@@ -37,7 +37,7 @@ const BookService = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://54.167.62.26:8080/api/form/lt", {
+      const response = await fetch("https://api.frightgo.in/api/form/lt", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -104,7 +104,7 @@ const BookService = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://54.167.62.26:8080/api/form/exp", {
+      const response = await fetch("https://api.frightgo.in/api/form/exp", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -169,7 +169,7 @@ const BookService = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://54.167.62.26:8080/api/form/imp", {
+      const response = await fetch("https://api.frightgo.in/api/form/imp", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

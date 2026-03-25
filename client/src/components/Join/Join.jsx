@@ -31,7 +31,7 @@ const Join = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://54.167.62.26:8080/api/form/join", {
+      const response = await fetch("https://api.frightgo.in/api/form/join", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
